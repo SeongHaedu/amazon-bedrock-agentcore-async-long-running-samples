@@ -33,6 +33,8 @@ Amazon Bedrock AgentCore Runtime で 15 分の Request timeout を超える長�
 
 ## 前提条件
 
+> **Note:** Runtime Instances のデプロイコマンド (`create-capacity-provider`、`--capacity-provider-configuration`) は AWS CLI v2 でのみ利用可能です。AWS CLI v1 にはこれらのサブコマンド/オプションが存在しないため、Runtime Instances のデプロイ手順は実行できません。macOS で Homebrew 等により v1 と v2 が共存している場合は、`aws --version` でバージョンを確認してください。本リポジトリの検証は AWS CLI v2.36.23 で実施しています。
+
 - AWS CLI v2 (`aws bedrock-agentcore-control` サブコマンドが利用可能なバージョン)
 - Python 3.13+ / pip
 - Docker (ARM64 ビルド用に `docker buildx`)
