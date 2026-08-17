@@ -2,7 +2,7 @@
 
 Amazon Bedrock AgentCore Runtime で 15 分の Request timeout を超える長時間処理を実現するサンプルコードです。`add_async_task()` / `complete_async_task()` による HealthyBusy 制御の有無で、セッションのライフサイクルがどう変わるかを 3 パターンで示します。
 
-![AgentCore Runtime session lifecycle](./images/session_lifecycle.png)
+![AgentCore Runtime Asynchronous and Long running agent flow](./images/async_long_running_agent_flow.png)
 
 解説記事: [Amazon Bedrock AgentCore Runtime で実現する 非同期 / 長期実行エージェント](https://zenn.dev/ykbone/articles/agentcore-async-long-running-patterns)
 
